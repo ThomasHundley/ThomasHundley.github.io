@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Design the Web</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+	<body>
+
+		<form id="signup" method="post" action="#">
+
+			<h2>Sign up</h2>
+			<h3>Our content, delivered on your terms.</h3>
+
+			<h4>Categories of interest</h4>
+			<input id="cat-d" type="checkbox" name="design"><label for="cat-d">Design</label>
+			<br>
+			<input id="cat-h" type="checkbox" name="html-css"><label for="cat-h">HTML &amp; CSS</label>
+			<br>
+			<input id="cat-j" type="checkbox" name="js"><label for="cat-j">JavaScript</label>
+			<br>
+
+			<fieldset>
+
+				<legend>Delivery Options</legend>
+
+				<h4>Choose a format</h4>
+				<input id="format-t" type="radio" name="format"><label for="format-t">Text Only</label>
+				<br>
+				<input id="format-h" type="radio" name="format"><label for="format-h">HTML (with images)</label>
+
+				<h4>Choose a frequency</h4>
+				<select id="frequency">
+					<option value="daily">Daily</option>
+					<option value="weekly">Weekly</option>
+					<option value="monthly">Monthly</option>
+				</select>
+				<br>
+
+				<h4>Comments</h4>
+				<textarea name="requests" rows="3" placeholder="Please let us know what other options you'd like to have."></textarea>
+
+			</fieldset>
+
+			<h4>Email</h4>
+			<input id="email" type="text" size="45" placeholder="Enter your full email address">
+			<br>
+
+			<input type="submit" value="Sign me up">
+            <P>This is my form page, and I am going to explain how it works.  When we first got the code for the form, it had unclickable buttons and did not have boxes that changed color when clicked and had little style.  The first thing we did was style the page by changing the headers, the colors, and text of the page.  Then, we made some webkits so the page would keep its style even if the web browser could not handle the code.  Next we got rid of the code that made the checkboxes.  Then, we used an svg image of a check box and put that in place of the other boxes and made it clickable.  Next we added inputs for the email and styled the buttons so they changed color when hovered over and also added an svg image for an email icon.  We also made the textboxes change color slighty when focused, which basically means that they change color when clicked and stay that way untill clicked off of.</P>
+
+		</form>
+
+
+	</body>
+</html>
