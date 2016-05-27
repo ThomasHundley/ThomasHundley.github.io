@@ -7,7 +7,7 @@ body { font-size: 16px; font-family: 'Montserrat', sans-serif; background-color:
 form#signup {
     max-width: 800px;
     padding: 15px;
-    background: #5890d0 url(images/background.jpg) no-repeat 0px -70px;
+    background: #5890d0 url(Images/background.jpg) no-repeat 0px -70px;
 }
 form#signup h2 {
     margin: 0px;
@@ -68,7 +68,7 @@ form#signup select {
     appearance:none;
     
     font-size: .9em;
-    background: #588fd0 url(images/icons_arrows.svg) no-repeat right 8px;
+    background: #588fd0 url(Images/icons_arrows.svg) no-repeat right 8px;
     background-size: 30px 20px;
     color: #ffd34c;
     padding: 7px 45px 7px 10px;
@@ -87,7 +87,7 @@ form#signup input[type="checkbox"] + label,form#signup input[type="radio"] + lab
     display: inline-block;
     margin-left: -20px;
     padding: 4px 0px 0px 27px;
-    background: url(images/icons_check_radio.svg) no-repeat;
+    background: url(Images/icons_check_radio.svg) no-repeat;
     background-size: 20px 80px;
     line-height: 16px;
 }
@@ -114,7 +114,7 @@ form#signup input[type="radio"]:checked + label {
 
 form#signup input#email {
     font-size: .9em;
-    background: rgba(255, 255, 255, .8) url(images/icon_email.svg) no-repeat 7px 6px;
+    background: rgba(255, 255, 255, .8) url(Images/icon_email.svg) no-repeat 7px 6px;
     background-size: 30px 17px;
     padding: 5px 0px 6px 47px;
     margin: 0px 0px 12px 0px;
